@@ -76,18 +76,6 @@ Across all genes, KENavi consistently captures:
 
 - The model captures **dynamic regulatory programs**, not just static gene importance  
 
----
-
-## 📈 Use Case
-
-This framework is particularly useful for:
-
-- Single-cell CRISPR perturbation analysis  
-- Cell differentiation studies  
-- Disease progression modeling  
-- Identifying candidate regulatory genes under limited experimental coverage  
-
----
 
 ---
 
