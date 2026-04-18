@@ -18,23 +18,7 @@ Identifying **driver genes** that govern transitions between cellular states is 
 
 ---
 
-## 🧠 Method Summary
 
-KENavi consists of three key components:
-
-1. **Cell Representation Learning**
-   - Learns low-dimensional embeddings of single-cell expression profiles  
-   - Captures the intrinsic manifold structure of cellular states  
-
-2. **Knowledge Integration**
-   - Incorporates biological priors (e.g., gene regulatory networks or LLM-derived knowledge)  
-   - Enhances representation with biologically meaningful signals  
-
-3. **Transition-based Driver Gene Identification**
-   - Models transitions between source and target cell states  
-   - Predicts driver genes responsible for state changes  
-
----
 
 ## 📊 UMAP Visualization
 
