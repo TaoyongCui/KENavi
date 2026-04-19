@@ -129,6 +129,7 @@ To evaluate the impact of different biological priors, we compare KENavi and Cel
 - KENavi consistently outperforms CellNavi across all graph types, demonstrating its stronger ability to leverage structural and knowledge-based information  
 
 These results highlight the importance of **biological prior quality** and show that KENavi can effectively utilize such priors for improved driver gene identification.
+---
 
 ## Case Study: Key Genes During Pathogenesis
 
