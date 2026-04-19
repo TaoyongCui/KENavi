@@ -150,6 +150,30 @@ We further compare **CellNavi** and **KENavi** on identifying key genes involved
 - Results suggest that knowledge integration helps prioritize **functionally critical genes** during disease progression  
 
 This case study further demonstrates KENavi’s advantage in capturing **pathogenesis-relevant regulatory signals**.
+
+
+---
+
+## Robustness Analysis on Schmidt Dataset
+
+We evaluate the robustness of KENavi on the **Schmidt dataset**, a CRISPR activation screen profiling 69 genetic perturbations.
+
+### Quantitative Results (Top-1 Accuracy)
+
+| Setting                                   | Top-1 Accuracy |
+|------------------------------------------|---------------:|
+| KENavi (Full model)                      | **0.682**      |
+| KENavi (Disrupted gene sequence)         | 0.669          |
+| KENavi (Incomplete prior knowledge)      | 0.670          |
+| KENavi (Disrupted cell metadata)         | 0.662          |
+
+### Interpretation
+
+- KENavi maintains strong performance even under degraded conditions  
+- Disrupting gene sequence, prior knowledge, or metadata only leads to **modest performance drops**  
+- This indicates that the model is **robust and not overly dependent on any single source of information**  
+
+These results demonstrate that KENavi effectively integrates multiple signals and remains stable under realistic noise and incomplete knowledge scenarios.
 ## 🚀 Conclusion
 
 KENavi provides a **knowledge-guided framework** for understanding cellular transitions and identifying key regulatory genes.  
